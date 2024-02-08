@@ -1,4 +1,3 @@
-```markdown
 # Fastly NGWAF Request Feed Analyzer
 
 This Python script fetches request feeds from the Fastly Next-Generation Web Application Firewall (NGWAF) API, stores the data in a CSV file, and performs an analysis on JA3 fingerprints (identified by `bot_j` values in the `summation` attribute) to find and display the top 10 occurrences.
@@ -60,6 +59,5 @@ After successful execution, the script will:
 - Print the top 10 JA3 fingerprints and their counts to the console.
 
 ## Note
-
 This script is designed for use with Fastly NGWAF API and has been tested with Python 3.8+. Ensure your API credentials are correct and that you have the necessary permissions to access the request feed data.
 ```
