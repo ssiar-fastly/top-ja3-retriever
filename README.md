@@ -1,4 +1,4 @@
-# Fastly NGWAF Request Feed Analyzer
+# Fastly NGWAF Request Feed Top JA3 Retriever
 
 This Python script fetches request feeds from the Fastly Next-Generation Web Application Firewall (NGWAF) API, stores the data in a CSV file, and performs an analysis on JA3 fingerprints (identified by `bot_j` values in the `summation` attribute) to find and display the top 10 occurrences.
 
