@@ -38,13 +38,13 @@ This Python script fetches request feeds from the Fastly Next-Generation Web App
 To run the script, navigate to the directory containing the script and execute it with Python, optionally specifying arguments for email, token, corporation name, site name, and output file name:
 
 ```shell
-python fastly_ngwaf_analyzer.py --sigsci_email <your_email> --sigsci_token <your_token> --corp_name <your_corp_name> --site_name <your_site_name> --output_file <output.csv> -v
+python top-ja3-retriever.py.py --sigsci_email <your_email> --sigsci_token <your_token> --corp_name <your_corp_name> --site_name <your_site_name> --output_file <output.csv> -v
 ```
 
 If you've set up environment variables for your credentials and identifiers, you can omit those arguments:
 
 ```shell
-python fastly_ngwaf_analyzer.py --output_file output.csv -v
+python top-ja3-retriever.py.py --output_file output.csv -v
 ```
 
 The `-v` or `--verbose` flag is optional and enables verbose output for debugging purposes.
